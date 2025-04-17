@@ -1,0 +1,131 @@
+{
+    "items": [
+        {
+            "name": "Niagara Falls",
+            "images": [
+                "assets/images/falls/n1.png",
+                "assets/images/falls/n2.png",
+                "assets/images/falls/n3.png",
+                "assets/images/falls/n4.png"
+            ],
+            "categories": [
+                "Popular"
+            ],
+            "height": 53,
+            "width": 790,
+            "type": "Cascading, vertical",
+            "seasonality": "Year-round (partially freezes in winter)",
+            "description": "The most powerful waterfall in North America, comprising three sections: Horseshoe, Bridal Veil, and American Falls",
+            "historical_facts": [
+                "First documented in 1697 by explorer Louis Hennepin",
+                "Became a tourist icon in the 19th century, hosting daredevil stunts in barrels and boats"
+            ],
+            "features": "Nightly illumination, boat tours on the Maid of the Mist"
+        },
+        {
+            "name": "American Falls",
+            "images": [
+                "assets/images/falls/a1.png",
+                "assets/images/falls/a2.png",
+                "assets/images/falls/a3.png",
+                "assets/images/falls/a4.png"
+            ],
+            "categories": [
+                "Popular"
+            ],
+            "height": 34,
+            "width": 320,
+            "type": "Vertical",
+            "seasonality": "Accessible year-round",
+            "description": "Less powerful but visually striking due to rugged rock formations",
+            "historical_facts": [
+                "Diverted completely for six months in 1969 to study erosion"
+            ],
+            "features": "Prospect Point Observation Deck"
+        },
+        {
+            "name": "Whistler Falls",
+            "images": [
+                "assets/images/falls/w1.png",
+                "assets/images/falls/w2.png",
+                "assets/images/falls/w3.png",
+                "assets/images/falls/w4.png"
+            ],
+            "categories": [
+                "Secluded Waterfalls"
+            ],
+            "height": 18,
+            "width": 5,
+            "type": "Cascading",
+            "seasonality": "Best visited in spring (snowmelt) or autumn",
+            "description": "Hidden in a forest of maple and pine, offering serene isolation broken only by the sound of rushing water",
+            "historical_facts": [
+                "Named after a 19th-century naturalist painter who captured its beauty"
+            ],
+            "features": "Access via a scenic trail with a suspension bridge"
+        },
+        {
+            "name": "Hidden Spring Falls",
+            "images": [
+                "assets/images/falls/h1.png",
+                "assets/images/falls/h2.png",
+                "assets/images/falls/h3.png",
+                "assets/images/falls/h4.png"
+            ],
+            "categories": [
+                "Secluded Waterfalls"
+            ],
+            "height": 12,
+            "width": 23,
+            "type": "Stream-type",
+            "seasonality": "Active only after heavy rains or in spring",
+            "description": "A petite waterfall fed by underground springs",
+            "historical_facts": [
+                "Sacred site for the Iroquois, believed to have healing properties"
+            ],
+            "features": "Surrounded by wild orchid fields (blooming in June)"
+        },
+        {
+            "name": "Eagle’s Nest Falls",
+            "images": [
+                "assets/images/falls/e1.png",
+                "assets/images/falls/e2.png",
+                "assets/images/falls/e3.png",
+                "assets/images/falls/e4.png"
+            ],
+            "categories": [
+                "Hidden"
+            ],
+            "height": 25,
+            "width": 3,
+            "type": "Cave waterfall",
+            "seasonality": "Accessible July–September (flooded during wet seasons)",
+            "description": "Plunges from a cliff crevice, creating a 'rainbow mist' inside the cave",
+            "historical_facts": [
+                "Discovered in 1923 by amateur spelunkers"
+            ],
+            "features": "Requires climbing skills and a flashlight to explore"
+        },
+        {
+            "name": "Cascade Glen Creek",
+            "images": [
+                "assets/images/falls/c1.png",
+                "assets/images/falls/c2.png",
+                "assets/images/falls/c3.png",
+                "assets/images/falls/c4.png"
+            ],
+            "categories": [
+                "Hidden"
+            ],
+            "height": 40,
+            "width": 3,
+            "type": "Tiered",
+            "seasonality": "Year-round, but icy and hazardous in winter",
+            "description": "A chain of seven small waterfalls in a narrow gorge",
+            "historical_facts": [
+                "Site of 19th-century slate mining for construction"
+            ],
+            "features": "Fossils dating back 400 million years along the trail"
+        }
+    ]
+}
