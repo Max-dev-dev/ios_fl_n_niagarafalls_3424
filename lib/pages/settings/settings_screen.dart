@@ -58,8 +58,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 _notificationsEnabled = val;
               });
             }),
-            _buildLinkRow('Terms of Use', 'https://example.com/terms'),
-            _buildLinkRow('Privacy Policy', 'https://example.com/privacy'),
+            //_buildLinkRow('Terms of Use', 'https://example.com/terms'),
+            _buildLinkRow('Privacy Policy', 'https://www.termsfeed.com/live/5fd9507b-266f-49f8-ae52-24594d6f7ae6'),
           ],
         ),
       ),
