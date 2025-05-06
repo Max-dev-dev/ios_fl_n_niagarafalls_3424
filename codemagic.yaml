@@ -38,7 +38,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - mg.bukin26@gmail.com
+          - bruem35@gmail.com
         notify:
           success: true
           failure: true
