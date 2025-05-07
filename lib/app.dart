@@ -24,7 +24,7 @@ class _MainAppState extends State<MainApp> {
 
   @override
   Widget build(BuildContext context) {
-    final mainAppColor = const Color(0xFF1D583A);
+    final mainAppColor = Colors.transparent;
     return MultiBlocProvider(
       providers: [
         BlocProvider(create: (context) => FallsCubit()),
@@ -33,6 +33,19 @@ class _MainAppState extends State<MainApp> {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
+        builder: (context, child) {
+          return Stack(
+            children: [
+              Positioned.fill(
+                child: Image.asset(
+                  'assets/images/app_background.png',
+                  fit: BoxFit.cover,
+                ),
+              ),
+              child ?? const SizedBox.shrink(),
+            ],
+          );
+        },
         theme: ThemeData(
           scaffoldBackgroundColor: mainAppColor,
           appBarTheme: AppBarTheme(backgroundColor: mainAppColor),
