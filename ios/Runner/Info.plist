@@ -1,59 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<dict>
-		<key>CADisableMinimumFrameDurationOnPhone</key>
-		<true />
-		<key>CFBundleDevelopmentRegion</key>
-		<string>$(DEVELOPMENT_LANGUAGE)</string>
-		<key>CFBundleDisplayName</key>
-		<string>Niagara Flow Journal</string>
-		<key>CFBundleExecutable</key>
-		<string>$(EXECUTABLE_NAME)</string>
-		<key>CFBundleIdentifier</key>
-		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-		<key>CFBundleInfoDictionaryVersion</key>
-		<string>6.0</string>
-		<key>CFBundleName</key>
-		<string>ios_fl_n_niagarafalls_3424</string>
-		<key>CFBundlePackageType</key>
-		<string>APPL</string>
-		<key>CFBundleShortVersionString</key>
-		<string>$(FLUTTER_BUILD_NAME)</string>
-		<key>CFBundleSignature</key>
-		<string>????</string>
-		<key>CFBundleVersion</key>
-		<string>$(FLUTTER_BUILD_NUMBER)</string>
-		<key>ITSAppUsesNonExemptEncryption</key>
-		<false />
-		<key>LSApplicationQueriesSchemes</key>
-		<array>
-			<string>mailto</string>
-			<string>sms</string>
-		</array>
-		<key>LSRequiresIPhoneOS</key>
-		<true />
-		<key>NSMicrophoneUsageDescription</key>
-		<string>This app requires access to the microphone to play audio.</string>
-		<key>UIApplicationSupportsIndirectInputEvents</key>
-		<true />
-		<key>UILaunchStoryboardName</key>
-		<string>LaunchScreen</string>
-		<key>UIMainStoryboardFile</key>
-		<string>Main</string>
-		<key>UISupportedInterfaceOrientations</key>
-		<array>
-			<string>UIInterfaceOrientationPortrait</string>
-		</array>
-		<key>UISupportedInterfaceOrientations~ipad</key>
-		<array>
-			<string>UIInterfaceOrientationLandscapeLeft</string>
-			<string>UIInterfaceOrientationLandscapeRight</string>
-			<string>UIInterfaceOrientationPortrait</string>
-			<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		</array>
-		<!-- App Don`t Use Encryption -->
-		<key>ITSAppUsesNonExemptEncryption</key>
-		<false />
-	</dict>
-</plist>
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Niahara Flow Journal</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ios_fl_n_niagarafalls_3424</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>LSApplicationQueriesSchemes</key>
+        	<array>
+        		<string>scotiabank</string>
+        		<string>bmoolbb</string>
+        		<string>cibcbanking</string>
+        		<string>conexus</string>
+        		<string>rbcmobile</string>
+        		<string>pcfbanking</string>
+        		<string>tdct</string>
+        		<string>fb</string>
+        		<string>mailto</string>
+        		<string>paytmmp</string>
+        		<string>phonepe</string>
+        		<string>upi</string>
+        		<string>sofort</string>
+        		<string>uber</string>
+        		<string>de.ingdiba.bankingapp</string>
+        	</array>
+        	<key>LSRequiresIPhoneOS</key>
+        	<true/>
+        	<key>NSAppTransportSecurity</key>
+        	<dict>
+        		<key>NSAllowsArbitraryLoads</key>
+        		<true/>
+        		<key>NSExceptionDomains</key>
+        		<dict>
+        			<key>malinacasino25.com</key>
+        			<dict>
+        				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+        				<true/>
+        				<key>NSIncludesSubdomains</key>
+        				<true/>
+        			</dict>
+        		</dict>
+        	</dict>
+        	<key>NSCameraUsageDescription</key>
+        	<string>We need access to your photos to set or update your profile picture.</string>
+        	<key>NSMicrophoneUsageDescription</key>
+        	<string>This app needs access to the microphone to record audio.</string>
+        	<key>NSPhotoLibraryUsageDescription</key>
+        	<string>We need access to your photos to set or update your profile picture.</string>
+        	<key>NSUserTrackingUsageDescription</key>
+        	<string>This identifier will be used to deliver personalized ads to you.</string>
+        	<key>UIApplicationSupportsIndirectInputEvents</key>
+        	<true/>
+        	<key>UIBackgroundModes</key>
+        	<array>
+        		<string>remote-notification</string>
+        	</array>
+        	<key>UILaunchStoryboardName</key>
+        	<string>LaunchScreen</string>
+        	<key>UIMainStoryboardFile</key>
+        	<string>Main</string>
+        	<key>UIStatusBarHidden</key>
+        	<false/>
+        	<key>UISupportedInterfaceOrientations</key>
+        	<array>
+        		<string>UIInterfaceOrientationLandscapeLeft</string>
+        		<string>UIInterfaceOrientationLandscapeRight</string>
+        		<string>UIInterfaceOrientationPortrait</string>
+        	</array>
+        	<key>UISupportedInterfaceOrientations~ipad</key>
+        	<array>
+        		<string>UIInterfaceOrientationLandscapeLeft</string>
+        		<string>UIInterfaceOrientationLandscapeRight</string>
+        		<string>UIInterfaceOrientationPortrait</string>
+        		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+        	</array>
+        </dict>
+        </plist>
